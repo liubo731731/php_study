@@ -91,8 +91,7 @@
 })();
 
 
-(function($) {
-	
+(function() {
 	'use strict';
 	angular.module('app.setting').run(settingsRun);
 	settingsRun.$inject = ['$rootScope','$templateCache'];
@@ -105,7 +104,8 @@
 		});	
 	}
 	
-})()
+})();
+
 (function($) {
 	angular.module('app.routes').config(routeConfig);
 	routeConfig.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
