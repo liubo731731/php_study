@@ -92,6 +92,7 @@
   angular.module('app.setting').run(function($rootScope, $templateCache) {
    $rootScope.$on('$viewContentLoaded', function() {
       $templateCache.removeAll();
+	  alert();
    });
 });
  })
