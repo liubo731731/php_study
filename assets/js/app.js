@@ -4,13 +4,19 @@
         .module('php', [
             'app.sidebar',
 			'app.routes',
-			'app.web'
+			'app.web',
+			'app.setting'
         ]);
 })();
 (function () {
     'use strict';
     angular
         .module('app.sidebar', []);
+})();
+(function () {
+    'use strict';
+    angular
+        .module('app.setting', []);
 })();
 (function () {
     'use strict';
@@ -27,10 +33,10 @@
     angular
         .module('app.web')
         .controller('TemplateController', TemplateController);
-    TemplateController.$inject = ['$rootScope', '$scope'];
-    function TemplateController($rootScope, $scope) {
+        TemplateController.$inject = ['$rootScope', '$scope'];
+        function TemplateController($rootScope, $scope) {
 		
-	}
+	     }
 
 })();
 (function () {
@@ -80,6 +86,15 @@
 	}
 
 })();
+
+
+(function($) {
+  angular.module('app.setting').run(function($rootScope, $templateCache) {
+   $rootScope.$on('$viewContentLoaded', function() {
+      $templateCache.removeAll();
+   });
+});
+ })
 (function($) {
 	  angular.module('app.routes').config(routeConfig);
 		routeConfig.$inject = ['$stateProvider', '$urlRouterProvider','$locationProvider'];
