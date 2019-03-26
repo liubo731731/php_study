@@ -92,12 +92,19 @@
 
 
 (function($) {
-	angular.module('app.setting').run(function($rootScope, $templateCache) {
+	
+	'use strict';
+	angular.module('app.setting').run(settingsRun);
+	settingsRun.$inject = ['$rootScope','$templateCache'];
+	function settingsRun($rootScope, $templateCache) {
+		$rootScope.appConfig=appConfig;
+		$rootScope.nowTime=new Date().getTime();
+		//清除模板缓存
 		$rootScope.$on('$viewContentLoaded', function() {
 			$templateCache.removeAll();
-			alert();
-		});
-	});
+		});	
+	}
+	
 })()
 (function($) {
 	angular.module('app.routes').config(routeConfig);
