@@ -5,7 +5,8 @@
 4. var用法,class之外不能用,之内用相当于public, [详细][1]
 5. $this->color 相当于js里面this.color
 6. echo，print，print_r，var_dump 四种输出 
-7. 
+7. 换行 PHP_EOL,'\n','<br>'
+8. isset,
 
 
 [1]: https://www.cnblogs.com/lyf-blog/p/5681308.html
