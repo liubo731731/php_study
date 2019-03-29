@@ -8,6 +8,6 @@
 6. echo，print，print_r，var_dump 四种输出 
 7. 换行 PHP_EOL,'\n','<br>'
 8. isset,
-
-
 [1]: https://www.cnblogs.com/lyf-blog/p/5681308.html
+
+
