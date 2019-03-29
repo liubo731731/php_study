@@ -1,4 +1,5 @@
 ### 概述
+### 学习地址:https://www.w3cschool.cn/php/
 1. 定义变量不用关键字,直接用"$",如:$x = 5985;
 2. 语言练习环境:https://c.runoob.com/compile/1
 3. 其他复杂的结构用icloud studio云ide环境实现
