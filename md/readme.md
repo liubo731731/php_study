@@ -10,6 +10,7 @@ https://www.w3cschool.cn/tryrun/showphp/demo_intro
 6. echo，print，print_r，var_dump 四种输出 
 7. 换行 PHP_EOL,'\n','<br>'
 8. isset,
+9. 静态方法:"::",实例方法:"->" print Foo::staticValue(),print $foo->staticValue()
 [1]: https://www.cnblogs.com/lyf-blog/p/5681308.html
 
 
