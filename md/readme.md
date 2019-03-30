@@ -6,6 +6,7 @@ https://c.runoob.com/compile/1
 https://www.w3cschool.cn/tryrun/showphp/demo_intro
 3. phpstorm使用教程 https://blog.csdn.net/a411358606/article/details/80809844  
 4. 注册码获取地址:http://idea.lanyus.com/
+5. phpstorm 调试工具:https://blog.csdn.net/yinhangbbbbb/article/details/79247331
 3. 其他复杂的结构用icloud studio云ide环境实现
 4. var用法,class之外不能用,之内用相当于public, [详细][1]
 5. $this->color 相当于js里面this.color
