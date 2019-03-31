@@ -60,3 +60,22 @@ else
 echo "浏览量：". $_SESSION['views'];
 ?>
 ```
+
+
+##### 销毁 Session:使用 unset()-释放单个 或 session_destroy() 函数-释放所有session数据
+```
+<?php
+session_start();
+if(isset($_SESSION['views']))
+{
+    unset($_SESSION['views']);//释放变量
+}
+?>
+
+<?php
+session_destroy();//您也可以通过调用 session_destroy() 函数彻底销毁 session：
+?>
+
+
+
+```
