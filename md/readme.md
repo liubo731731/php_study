@@ -14,6 +14,7 @@ https://www.w3cschool.cn/tryrun/showphp/demo_intro
 7. 换行 PHP_EOL,'\n','<br>'
 8. isset,
 9. 静态方法:"::",实例方法:"->" print Foo::staticValue(),print $foo->staticValue()
+10. 用phpstorm打开纯html代码，会报502 bad way!
 [1]: https://www.cnblogs.com/lyf-blog/p/5681308.html
 
 #### Php教程部分概要
