@@ -1,4 +1,4 @@
-#### cookie
+### cookie相关
 ---
 ##### 如何创建 Cookie？
 1.setcookie() 函数用于设置 cookie。  
@@ -41,3 +41,13 @@ else
 </html>
 
 ```
+#### 如何删除 Cookie？
+###### 删除需要让时间为过去的时间
+```
+<?php
+// 设置 cookie 过期时间为过去 1 小时
+setcookie("user", "", time()-3600);
+?>
+```
+
+#### 如果浏览器不支持 Cookie 该怎么办？一种方式是使用form表单:
