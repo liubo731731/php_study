@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4b040c8-d3ba-4e15-b031-c607ef283fc3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/welcome.txt" beforeDir="false" afterPath="$PROJECT_DIR$/welcome.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f4b040c8-d3ba-4e15-b031-c607ef283fc3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
   <component name="PhpWebServerValidation" path_to_validation_script="F:\ESP资料\express\php_study\代码部分" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1:80/php_study/代码部分/" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="127.0.0.1" port="80" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -198,15 +196,15 @@
       <workItem from="1553938187651" duration="4157000" />
       <workItem from="1553943360210" duration="4146000" />
       <workItem from="1553997749795" duration="367000" />
-      <workItem from="1554004675168" duration="4112000" />
+      <workItem from="1554004675168" duration="4242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12782000" />
+    <option name="totallyTimeSpent" value="12912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="10" y="20" width="1346" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26127526" />
