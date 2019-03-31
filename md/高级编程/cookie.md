@@ -10,9 +10,34 @@
 ```
 <?php
 setcookie("user", "runoob", time()+3600);
+//$expire=time()+60*60*24*30;
+//setcookie("user", "runoob", $expire);
+
+
 ?>
 
 <html>
 .....
 ```
 
+#### 如何取回 Cookie 的值？
+echo $_COOKIE["user"];//查看某个  
+print_r($_COOKIE);//查看所有
+#### isset() 函数来确认是否已设置了 cookie  
+```
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+<?php
+if (isset($_COOKIE["user"]))
+    echo "欢迎 " . $_COOKIE["user"] . "!<br>";
+else
+    echo "普通访客!<br>";
+?>
+</body>
+</html>
+
+```
