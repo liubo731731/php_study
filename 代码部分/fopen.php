@@ -2,7 +2,7 @@
 <body>
 
 <?php
-$file=fopen("welcome.txt","a");
+$file=fopen("welcomae.txt","a") or exit("Unable to open file!");
 ?>
 
 </body>
