@@ -33,7 +33,7 @@ AddType application/x-httpd-php .php
 保存配置，在命令行中运行httpd.exe -t检查配置，如果没有问题，则运行httpd.exe -k restart重启Apache服务。
 ```
 
-3.  在Apache24\htdocs目录下新建一个phpinfo.php文件，输入如下PHP代码：
+3. 在Apache24\htdocs目录下新建一个phpinfo.php文件，输入如下PHP代码：
 
 ```
 <?php
