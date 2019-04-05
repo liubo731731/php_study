@@ -1,3 +1,7 @@
+#### Composer 是 PHP 的一个依赖管理工具。我们可以在项目中声明所依赖的外部工具库，Composer 会帮你安装这些依赖的库文件，有了它，我们就可以很轻松的使用一个命令将其他人的优秀代码引用到我们的项目中来。
+####  Composer 默认情况下不是全局安装，而是基于指定的项目的某个目录中（例如 vendor）进行安装。
+####  Composer 需要 PHP 5.3.2+ 以上版本，且需要开启 openssl。
+####  Composer 可运行在 Windows 、 Linux 以及 OSX 平台上。 
 #### 专门放置组件的网站Packagist:https://packagist.org/
 
 http://www.runoob.com/w3cnote/composer-install-and-usage.html
