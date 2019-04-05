@@ -5,7 +5,8 @@
 ####  Composer 可运行在 Windows 、 Linux 以及 OSX 平台上。 
 #### 专门放置组件的网站Packagist:https://packagist.org/
 
-具体教程:http://www.runoob.com/w3cnote/composer-install-and-usage.html
+具体教程1:http://www.runoob.com/w3cnote/composer-install-and-usage.html  
+具体教程2-很清楚的一条龙:https://www.jianshu.com/p/297047f5b5e1 
 
 
 php7.3安装时候有问题，总是报"count():Parameter must be an array or an object that implements Countable",查资料之后因为7.2 7.3的php严格限制了数组的参数

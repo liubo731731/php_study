@@ -16,7 +16,8 @@
 
 
 ###### 配置php
-1.将PHP解压后拷贝到安装位置，我这里选择的是d:/php-5.5.15。然后将php.ini-development复制并重命名为php.ini，如果是部署，则复制php.ini-production。  
+1.将PHP解压后拷贝到安装位置，我这里选择的是d:/php-5.5.15。  ,设置环境变量！
+,设置环境变量！然后将php.ini-development复制并重命名为php.ini，如果是部署，则复制php.ini-production。  
 2.编辑Apache的httpd.conf 查找LoadModule，在其后面增加下面配置，如果你的PHP在C盘的话，请将D:换成C:，另外注意路径使用/  
 
 ```
