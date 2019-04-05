@@ -44,8 +44,8 @@ composer config -g repo.packagist composer https://packagist.phpcomposer.com 更
 Composer 会先找到合适的版本，然后更新composer.json文件，
 在 require 那添加 monolog/monolog 包的相关信息，再把相关的依赖下载下来进行安装，最后更新 composer.lock 文件并生成 php 的自动加载文件。
 
-#### update 命令 update 命令用于更新项目里所有的包，或者指定的某些包：
-##### 注:包能升级的版本会受到版本约束的约束，包不会升级到超出约束的版本的范围
+#### update 命令 update 命令用于更新项目里所有的包，或者指定的某些包：  
+注:包能升级的版本会受到版本约束的约束，包不会升级到超出约束的版本的范围
 ```
 # 更新所有依赖
 $ composer update
