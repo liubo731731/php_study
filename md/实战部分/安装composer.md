@@ -1,5 +1,7 @@
 #### 专门放置组件的网站Packagist:https://packagist.org/
 
+http://www.runoob.com/w3cnote/composer-install-and-usage.html
+
 
 php7.3安装时候有问题，总是报"count():Parameter must be an array or an object that implements Countable",查资料之后因为7.2 7.3的php严格限制了数组的参数
 所以换成7.1的php了
