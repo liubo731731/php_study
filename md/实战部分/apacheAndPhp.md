@@ -18,6 +18,7 @@
 ###### 配置php
 1. 将PHP解压后拷贝到安装位置，我这里选择的是d:/php-5.5.15。然后将php.ini-development复制并重命名为php.ini，如果是部署，则复制php.ini-production。
 2. 编辑Apache的httpd.conf 查找LoadModule，在其后面增加下面配置，如果你的PHP在C盘的话，请将D:换成C:，另外注意路径使用/
+
 ```
 LoadModule php5_module D:/php-5.5.15/php5apache2_4.dll
 PHPIniDir D:/php-5.5.15
@@ -31,7 +32,9 @@ AddType application/x-httpd-php .php
 </IfModule>
 保存配置，在命令行中运行httpd.exe -t检查配置，如果没有问题，则运行httpd.exe -k restart重启Apache服务。
 ```
+
 3.  在Apache24\htdocs目录下新建一个phpinfo.php文件，输入如下PHP代码：
+
 ```
 <?php
     phpinfo();
