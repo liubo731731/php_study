@@ -42,3 +42,7 @@ AddType application/x-httpd-php .php
 ?>
 ```
 4.然后在浏览器中访问http://127.0.0.1/phpinfo.php  
+
+
+
+

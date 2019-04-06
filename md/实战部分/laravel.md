@@ -27,8 +27,48 @@ Require all granted  
     ErrorLog "logs/laravel.test.com-error.log"
     CustomLog "logs/laravel.test.com-access.log" common
 </VirtualHost>
---------------------- 
-作者：ttfy1234 
-来源：CSDN 
-原文：https://blog.csdn.net/mwg1234/article/details/52294218 
-版权声明：本文为博主原创文章，转载请附上博文链接！
+
+#### 第一节课
+框架:  
+Laravel:5.3版本  
+thinkphp:3.2.3 国人开发,中文文档完善  
+composer global require laravel/installer  
+laravel new blog  
+composer create-project --prefer-dist laravel/laravel blog  
+composer create-project --prefer-dist laravel/laravel blog 5.7.*。  
+
+
+2：composer软件：主要管理依赖关系 yum、 默认安装 PHP启动程序-  
+https://getcomposer.org/  
+
+CURL 微信开发  
+UPLOAD 文件操作  
+EXCEL 导出  
+MAIL 邮件  
+LOG  日志  
+LARAVEL   
+
+3.新建composer.json--->composer install
+
+4.开启
+
+ Composer 安装 Laravel 安装器:composer global require "laravel/installer"
+ 
+ 
+ 
+ ### 目录介绍-第二节:
+###### 目录结构
+1.app:应用核心代码
+2.boostrap:不是前端的那一个，而是框架的
+3：config
+4:database 
+5：public 主入口和前端的资源
+6：
+
+###### 开发展示页面
+1. env设置数据库
+2. 设置路由web.php 
+
+
+
+ 
