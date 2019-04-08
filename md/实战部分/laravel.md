@@ -128,7 +128,7 @@ class IndexController extends Controller
 登录页面--->
 
 
-###### 类型:
+###### 类型:主要是下面的6种类型
 ```
 Route::get($uri, $callback);
 Route::post($uri, $callback);
