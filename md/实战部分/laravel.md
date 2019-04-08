@@ -145,7 +145,31 @@ Route::options($uri, $callback);
 
 
 ######  put
+
 ######  CSRF 保护表单安全 不受连续攻击
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/check" method="POST">
+	 {{ csrf_field() }}
+First name:<br>
+<input type="text" name="firstname" value="Mickey">
+<br>
+Last name:<br>
+<input type="text" name="lastname" value="Mouse">
+<br><br>
+<input type="submit" value="Submit">
+</form> 
+
+<p>如果您点击提交，表单数据会被发送到名为 demo_form.asp 的页面。</p>
+
+</body>
+</html>
+
+
+```
 * 不加处理会报419状态错误:  {{ csrf_field() }} https://blog.csdn.net/sqlquan/article/details/81053567
 
 
