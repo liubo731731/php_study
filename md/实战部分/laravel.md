@@ -122,7 +122,31 @@ class IndexController extends Controller
 * 加载页面 return view("home");
 * 加载控制器 经过数据库:控制器里面查找数据库
 
-######  创建控制器:手动创建(拷贝修改)+php artisan make:controller IndexController
+######  创建控制器:手动创建(拷贝修改-文件名和类名相同)+php artisan make:controller IndexController
+
+#### 第四节课:路由类型
+登录页面--->
+
+
+###### 类型:
+```
+Route::get($uri, $callback);
+Route::post($uri, $callback);
+Route::put($uri, $callback);
+Route::patch($uri, $callback);
+Route::delete($uri, $callback);
+Route::options($uri, $callback);
+```
+
+###### get 
+
+
+###### post
+
+
+######  put
+######  CSRF 保护表单安全 不受连续攻击
+* 不加处理会报419状态错误:  {{ csrf_field() }} https://blog.csdn.net/sqlquan/article/details/81053567
 
 
 
