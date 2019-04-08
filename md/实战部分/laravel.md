@@ -107,9 +107,12 @@ class IndexController extends Controller
 
 
 #### 第三节课:配置和路由2
-######环境配置 .env配置
-* APP_KEY:网站的秘钥
-######系统配置 config
+######环境配置 .env配置 系统配置 config
+* APP_KEY:网站的秘钥  删除会有问题 在当前目录执行:"php artisan key:generate"重新生成
+* APP_DEBUG=true  默认true  打印日志 报错提示 网站上线 必须关掉 false
+* 获取环境配置信息 echo env("DB_HOST");echo config("app.debug"),dd(config('app'));
+* 设置环境配置信息 
+######php artisan（工具匠）
 
 
 
