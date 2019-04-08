@@ -113,7 +113,8 @@ class IndexController extends Controller
 * 获取环境配置信息 echo env("DB_HOST");echo config("app.debug"),dd(config('app'));
 * 设置环境配置信息 
 ##### php artisan（工具匠）本质是php文件--可以在dos下执行:控制器 中间件 秘钥生成！
-* 
+* 上线下  php artisan up/down  错误503页面这个没成功！
+* 查看路由列表 php artisan route:list
 
 
 
