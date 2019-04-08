@@ -111,7 +111,7 @@ class IndexController extends Controller
 * APP_KEY:网站的秘钥  删除会有问题 在当前目录执行:"php artisan key:generate"重新生成
 * APP_DEBUG=true  默认true  打印日志 报错提示 网站上线 必须关掉 false
 * 获取环境配置信息 echo env("DB_HOST");echo config("app.debug"),dd(config('app'));
-* 设置环境配置信息 
+* 设置环境配置信息 时间date('Y-m-d H:i:s') UTC/PRC 在app里面我们设置为PRC
 ##### php artisan（工具匠）本质是php文件--可以在dos下执行:控制器 中间件 秘钥生成！
 * 上线下  php artisan up/down  错误503页面这个没成功！
 * 查看路由列表 php artisan route:list
