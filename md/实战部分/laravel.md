@@ -122,6 +122,10 @@ class IndexController extends Controller
 * 加载页面 return view("home");
 * 加载控制器 经过数据库:控制器里面查找数据库
 
+######  创建控制器:手动创建(拷贝修改)+php artisan make:controller IndexController
+
+
+
 
 
 
