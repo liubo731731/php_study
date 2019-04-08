@@ -107,7 +107,15 @@ class IndexController extends Controller
 
 
 #### 第三节课:配置和路由2
-######
+######环境配置 .env配置
+* APP_KEY:网站的秘钥
+######系统配置 config
+
+
+
+
+
+
 
 
 
