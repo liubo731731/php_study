@@ -68,7 +68,8 @@ LARAVEL
 ###### 开发展示页面
 1. env设置数据库
 2. 设置路由web.php 
-3. php artisan make:controller IndexController 创建控制器-本质是一个类继承自Controller 然后在这个里面写方法
+3. php artisan make:controller IndexController 创建控制器-本质是一个类继承自Controller 然后在这个里面写方法  
+
 ```
 页面html
 @foreach ($data as $value)
