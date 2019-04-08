@@ -68,6 +68,41 @@ LARAVEL
 ###### 开发展示页面
 1. env设置数据库
 2. 设置路由web.php 
+3. php artisan make:controller IndexController 创建控制器-本质是一个类继承自Controller 然后在这个里面写方法
+```
+页面html
+@foreach ($data as $value)
+<tr>
+  <td>{{$value->ssr_ip}}</td>
+  <td>{{$value->ssr_port}}</td>
+  <td>{{$value->password}}</td>
+</tr>
+@endforeach
+```
+
+
+```
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use DB;
+
+class IndexController extends Controller
+{
+   public  function index(){
+   	   $data=DB::table('ssr_url')->get();
+	   //var_dump($data);
+	   // echo "<br>"
+	    //dd($data);
+		return view('user')->with("data",$data);
+   }
+
+}
+```
+
+4. MVC模式
 
 
 
