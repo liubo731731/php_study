@@ -112,7 +112,7 @@ class IndexController extends Controller
 * APP_DEBUG=true  默认true  打印日志 报错提示 网站上线 必须关掉 false
 * 获取环境配置信息 echo env("DB_HOST");echo config("app.debug"),dd(config('app'));
 * 设置环境配置信息 
-######php artisan（工具匠）
+#### php artisan（工具匠）
 
 
 
