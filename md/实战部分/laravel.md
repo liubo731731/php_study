@@ -103,7 +103,10 @@ class IndexController extends Controller
 }
 ```
 
-4. MVC模式
+1. MVC模式 介绍  浏览器->路由->(controller+model)->view  外加中间件
+
+
+#### 第三节课:路由2
 
 
 
