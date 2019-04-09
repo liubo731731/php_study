@@ -143,8 +143,37 @@ Route::options($uri, $callback);
 
 ###### post
 
+##### match any
+```
+Route::match(['get','post'],'/','IndexController@index');
+Route::any('/','IndexController@index');
+```
+
 
 ######  put
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/put" method="POST">
+	 {{ csrf_field() }}
+	 <input type="hidden"  name="_method" value="put">
+First name:<br>
+<input type="text" name="firstname" value="Mickey">
+<br>
+Last name:<br>
+<input type="text" name="lastname" value="Mouse">
+
+<br><br>
+<input type="submit" value="Submit">
+</form> 
+
+<p>putweb页面</p>putputputputputput
+
+</body>
+</html>
+```
 
 ######  CSRF 保护表单安全 不受连续攻击
 ```
@@ -173,10 +202,7 @@ Last name:<br>
 * 不加处理会报419状态错误:  {{ csrf_field() }} https://blog.csdn.net/sqlquan/article/details/81053567
 
 
-
-
-
-
+###### 资源路由
 
 
 
