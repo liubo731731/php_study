@@ -1,7 +1,7 @@
 ### 概述
 ###   学习地址:https://www.w3cschool.cn/php/
 ###   laravel手册api:https://laravel.com/api/5.8/Illuminate/Routing/Router.html
-###   laravel 文档:https://learnku.com/docs/laravel/5.8/routing/3890#cbc0a0
+###   laravel 文档:https://learnku.com/docs/laravel/5.8
 ###   
 1. 定义变量不用关键字,直接用"$",如:$x = 5985;
 2. 语言练习环境:  
