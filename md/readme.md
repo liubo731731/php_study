@@ -13,11 +13,15 @@ https://www.w3cschool.cn/tryrun/showphp/demo_intro
 6. echo，print，print_r，var_dump 四种输出 
 7. 换行 PHP_EOL,'\n','<br>'
 8. isset,
-9. 静态方法:"::",实例方法:"->" print Foo::staticValue(),print $foo->staticValue()
+9. 静态方法:"::",实例方法:"->" print Foo::staticValue(),print $foo->staticValue(),"=>"是数组成员访问方法
 10. 用phpstorm打开纯html代码，会报502 bad way!
+11. 
 [1]: https://www.cnblogs.com/lyf-blog/p/5681308.html
 
 #### Php教程部分概要
+
+
+
 
 #### Php表单
 #### Php表单
