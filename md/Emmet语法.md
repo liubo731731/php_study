@@ -9,6 +9,18 @@ https://blog.csdn.net/fghsfeyhdf/article/details/78069259
 
 1.使用“>”生成子元素
 
+```
+// 输入
+div>ul>li
+
+// 按下TAB键
+<div>
+    <ul>
+        <li></li>
+    </ul>
+</div>
+```
+
 
 2.使用“+”生成兄弟元素
 
