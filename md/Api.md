@@ -38,3 +38,5 @@ E_USER_NOTICE（默认）
 ```
    error_log(message,type,destination,headers);
 ```
+
+* array_chunk() - 将一个数组分割成多个 数组:[1,2,3,4]->["0"=>[1,2],"1"=>[3,4]],曾经做移动端数组分组用过;
