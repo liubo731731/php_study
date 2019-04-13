@@ -30,3 +30,8 @@ https://www.w3cschool.cn/tryrun/showphp/demo_intro
 
 
 
+#### ajax张章节
+1:删除实体成功之后,删除文件,
+
+
+
