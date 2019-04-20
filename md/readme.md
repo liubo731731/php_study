@@ -18,7 +18,7 @@ https://www.w3cschool.cn/tryrun/showphp/demo_intro
 8. isset,
 9. 静态方法:"::",实例方法:"->" print Foo::staticValue(),print $foo->staticValue(),"=>"是数组成员访问方法
 10. 用phpstorm打开纯html代码，会报502 bad way!
-11. 
+11. 根据IP地质查询省份 http://ip.taobao.com/service/getIpInfo.php?ip=106.38.11.68
 [1]: https://www.cnblogs.com/lyf-blog/p/5681308.html
 
 #### Php教程部分概要
