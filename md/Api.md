@@ -118,3 +118,20 @@ class BaseController extends Controller{
 * return back() 返回当前页面 exit();执行终止
 * 阻止表单提交 onsubmit="return false;"
 * 获取用户所有数据
+* call_user_func_array
+```
+call_user_func_array ： 调用回调函数，并把一个数组参数作为回调函数的参数。
+
+说明：mixed call_user_func_array ( callable $callback , array $param_arr )
+
+把第一个参数作为回调函数（callback）调用，把参数数组作（param_arr）为回调函数的的参数传入。
+
+返回回调函数的结果。如果出错的话就返回FALSE
+--------------------- 
+作者：weihuiblog 
+来源：CSDN 
+原文：https://blog.csdn.net/weihuiblog/article/details/78998924 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+```
+
+* array_unshift() 函数用于向数组插入新元素。新数组的值将被插入到数组的开头。
