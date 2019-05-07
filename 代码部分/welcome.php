@@ -80,11 +80,12 @@ $container->bind('superman', function ($container, $moduleName) {
 //$container->make($moduleName) 最终返回一个对象,这个对象是通过xpower的回调函数造出来的
 
 
-//能力工厂
+//xpower能力工厂
 $container->bind('xpower', function ($container) {
     return new XPower;
 });//只绑定不执行
 
+//ultrabomb能力工厂
 $container->bind('ultrabomb', function($container) {
     return new UltraBomb;
 });//只绑定不执行
